@@ -15,7 +15,7 @@
 import numpy as np
 from scipy.interpolate import InterpolatedUnivariateSpline as spline
 
-PATH_TO_BHPTNRSur = "/home/UMDAR.UMASSD.EDU/tislam/work/BHPTNRSurrogate"
+PATH_TO_BHPTNRSur="/work/pi_gkhanna_uri_edu/riteshbachhar_uri_edu/Research/Surrogate/BHPTNRSurrogate"
 import sys
 sys.path.append(PATH_TO_BHPTNRSur+"/surrogates")
 import BHPTNRSur1dq1e4 as bhptsur
